@@ -11,4 +11,6 @@ public interface IUserService {
     Optional<User> getUserById(Long id);
 
     User saveUser(User newUser);
+
+    String deleteUser(Long id);
 }
